@@ -1,0 +1,211 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 32px;
+    letter-spacing: 1px;
+    margin: 20px 0;
+    color: #7159c1;
+}
+
+.content-table {
+    border-collapse: collapse;
+    border-bottom: #8b2f32;
+    margin: 10px 0;
+    font-size: 0.78em;
+    align-content: center;
+    alignment: center;
+    border-radius: 10px 10px 0 0;
+    overflow: hidden;
+    font-family: "Fira Code Retina";
+    min-width: 200px;
+
+}
+
+.content-table thead tr {
+    background-color: lightgreen;
+    color: darkslategrey;
+    text-align: left;
+    height: 50px;
+    font-weight: bold;
+
+}
+.content-table th,
+.content-table td {
+    padding: 8px 10px;
+}
+
+
+
+.banner {
+    float: left;
+    width: 100%;
+}
+
+.banner img {
+    width: 100%;
+    vertical-align: middle;
+}
+
+.nav {
+    float: left;
+    width: 100%;
+    background: darkcyan;
+}
+
+.nav li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    list-style: none;
+}
+
+.nav a {
+    display: block;
+    width: 100%;
+    padding: 10px 0;
+    color: darkslategrey;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.nav a:hover {
+    background: aquamarine;
+}
+
+.content {
+    float: left;
+    width: 100%;
+    padding: 15px;
+    background: aliceblue;
+    color: darkslategrey;
+    font-family: "Calibri Light"
+}
+
+.forms {
+    float: left;
+    width: 70%;
+    height: 800px;
+    margin: 20px 15%;
+    animation-name: fade;
+    animation-duration: 1000ms;
+    background-color: antiquewhite;
+}
+
+.btn-primary {
+    min-width: 70px;
+    border: none;
+    background-color: #7159c1;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    padding: 7px;
+}
+
+.btn-danger {
+    min-width: 70px;
+    border: none;
+    background-color: #8b2f32;
+    color: antiquewhite;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    padding: 7px;
+}
+
+.btn-default {
+
+    min-width: 70px;
+    border: none;
+    background-color: antiquewhite;
+    color: #7159c1;
+    font-weight: bold;
+    border-radius: 8px;
+    margin: auto;
+    padding: 7px;
+}
+.btn-add {
+    min-width: 40px;
+    height: 40px;
+    border: none;
+    background-color: #7159c1;
+    color: antiquewhite;
+    font-weight: bold;
+    border-radius: 50px 50px 50px 50px ;
+    margin: auto;
+    padding: 7px;
+}
+
+
+.resultado-success {
+    display: none;
+    float: left;
+    width: 70%;
+    height: 100px;
+    margin: 20px 15% 10px 15%;
+    background: seagreen;
+    animation-name: fade;
+    animation-duration: 2000ms;
+}
+
+.resultado-fail {
+    display: none;
+    float: left;
+    width: 70%;
+    height: 60px;
+    margin: 20px 15% 10px 15%;
+    background: #8b2f32;
+    animation-name: fade;
+    animation-duration: 2000ms;
+}
+
+label {
+    color: #7159c1;
+    font-family: "Calibri Light";
+    font-weight: bold;
+
+}
+
+input[type=text] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    transition: .3s;
+}
+
+input[type=date] {
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    outline: none;
+    padding: 8px;
+    transition: .3s;
+}
+
+
+input:focus {
+    border-color: cyan;
+    box-shadow: 0 0 8px 0 cyan;
+}
+
+@keyframes fade {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+
+}
+
+
